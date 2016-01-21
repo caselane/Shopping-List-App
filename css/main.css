@@ -1,0 +1,95 @@
+body {
+	background-image: url(../images//Market.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: "Roboto Slab", "Helvetica Neue", sans-serif;
+	font-size: 1.5em;
+}
+#main {
+	background-color: white;
+	margin: 7.5% 5% 7.5% 5%;
+	border: 0.25em solid #47607F;
+}
+.header {
+	text-align: center;
+	color: #47607F;
+	font-family: "Megrim", Georgia, serif;
+}
+#helpButton {
+	position: absolute;
+	right: 7%;
+	top: 16%;
+}
+/*
+#help1,
+#help2,
+#help3,
+#help4,
+#help5 {
+	visibility: hidden;
+}
+*/
+#help1 {
+	position: absolute;
+	right: 10%;
+	top: 12.5%;
+}
+#help2 {
+	margin-left: 4%;
+	display: inline-block;
+}
+#help3 {
+	display: inline-block;
+	margin-left: 0.5%;
+}
+#help4 {
+	margin: -1.25em 3em -1em 3em;
+}
+#help5 {
+	text-align: center;
+	margin-bottom: 0em;
+	margin-top: 0em;
+}
+#inputItems {
+	text-align: center;
+	border: 0.1em solid #47607F; 
+	margin-top: 4%;
+	display: inline-block;
+	box-shadow: 0.3em 0.3em 0.5em gray;
+}
+#submitItem {
+	border: 0.1em solid #47607F;
+	color: #47607F;
+	background-color: white;
+	display: inline-block;
+	box-shadow: 0.3em 0.3em 0.5em gray;
+}
+#listItems {
+	text-align: center;
+}
+.unchecked {
+	border: 0.25em solid #FF0B00;
+	border-radius: 3em;
+}
+.checked {
+	border: 0.25em solid #006EFF;
+	border-radius: 3em;
+}
+.remove {
+	margin: 0.5em 0em 0.5em 1em;
+	color: #FF0B00;
+	background-color: white;
+	border: 0.1em solid #FF0B00;
+	box-shadow: 0.3em 0.3em 0.5em gray;
+}
+#clearList {
+	margin-top: 1em;
+	height: 3em;
+	width: 7em;
+	background-color: white;
+	border: 0.2em solid #47607F;
+	box-shadow: 0.3em 0.3em 0.5em gray;
+	text-align: center;
+	margin-left: 42%;
+}
