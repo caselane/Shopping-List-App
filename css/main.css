@@ -21,7 +21,6 @@ body {
 	right: 7%;
 	top: 16%;
 }
-/*
 #help1,
 #help2,
 #help3,
@@ -29,7 +28,6 @@ body {
 #help5 {
 	visibility: hidden;
 }
-*/
 #help1 {
 	position: absolute;
 	right: 10%;
