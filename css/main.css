@@ -10,6 +10,13 @@ body {
 	background-color: white;
 	margin: 7.5% 5% 7.5% 5%;
 	border: 0.25em solid #47607F;
+	position: relative;
+	padding-bottom: 50px;
+	
+}
+#main > div {
+	position: relative;
+	text-align: center;
 }
 .header {
 	text-align: center;
@@ -17,42 +24,47 @@ body {
 	font-family: "Megrim", Georgia, serif;
 }
 #helpButton {
-	position: absolute;
-	right: 7%;
-	top: 16%;
 }
-#help1,
-#help2,
-#help3,
-#help4,
-#help5 {
-	visibility: hidden;
+.help {
+	display: none;
+	position: absolute;
+}
+#helpButtonArea {
+	position: absolute;
+	top: -20px;
+	right: 10px;
+	cursor: pointer;
 }
 #help1 {
-	position: absolute;
-	right: 10%;
-	top: 12.5%;
+	text-align: right;
+	padding-right: 40px;
+	margin-top: 0px;
 }
 #help2 {
-	margin-left: 4%;
-	display: inline-block;
+	left: 110px;
+	top: 54px;
+	margin-top: 0px;
+
 }
 #help3 {
-	display: inline-block;
-	margin-left: 0.5%;
+	top: 54px;
+    margin-top: 0px;
+    right: 60px;
 }
 #help4 {
-	margin: -1.25em 3em -1em 3em;
+	top: 0px;
+	position: relative;
 }
 #help5 {
+	top: 0px;
 	text-align: center;
-	margin-bottom: 0em;
-	margin-top: 0em;
+	width: 100%;
+	position: relative;
 }
 #inputItems {
 	text-align: center;
 	border: 0.1em solid #47607F; 
-	margin-top: 4%;
+	margin-top: 50px;
 	display: inline-block;
 	box-shadow: 0.3em 0.3em 0.5em gray;
 }
@@ -65,6 +77,10 @@ body {
 }
 #listItems {
 	text-align: center;
+}
+.list-item {
+	width: 80%;
+	margin: 10px auto;
 }
 .unchecked {
 	border: 0.25em solid #FF0B00;
@@ -89,5 +105,4 @@ body {
 	border: 0.2em solid #47607F;
 	box-shadow: 0.3em 0.3em 0.5em gray;
 	text-align: center;
-	margin-left: 42%;
 }

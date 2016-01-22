@@ -1,3 +1,5 @@
-$(document).ready(function() {
-
+$(document).ready(function(){
+	$('#helpButton').click(function(){
+		$('.help').toggle();
+	});
 });
