@@ -41,7 +41,7 @@ body {
 	margin-top: 0px;
 }
 #help2 {
-	left: 110px;
+	left: 60px;
 	top: 54px;
 	margin-top: 0px;
 
@@ -49,7 +49,7 @@ body {
 #help3 {
 	top: 54px;
     margin-top: 0px;
-    right: 60px;
+    right: 5px;
 }
 #help4 {
 	top: 0px;
@@ -81,6 +81,7 @@ body {
 .list-item {
 	width: 80%;
 	margin: 10px auto;
+	cursor: pointer;
 }
 .unchecked {
 	border: 0.25em solid #FF0B00;
